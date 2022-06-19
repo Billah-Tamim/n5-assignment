@@ -1,0 +1,85 @@
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+}
+#head_color{
+    color: orangered;
+}
+.details, .photo{
+    width: 40%;
+    margin: 2%;
+    margin: 7%;
+}
+#intro img{
+    width: 100%;
+}
+.common{
+    display: flex;
+}
+.details h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(darkmagenta, rgb(255, 0, 179));
+    color: blanchedalmond;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+#cook img{
+    width: 70%;
+}
+#cook{
+    background-image: url(images/7.png);
+    background-size: 1400px 630px;
+    background-repeat: no-repeat;
+}
+#items .card{
+    width: 23%;
+    border-radius: 20px;
+    box-shadow: 6px 6px 30px #888888;
+    margin: 2%;
+    padding: 1%;
+}
+.card img{
+    width: 100%;
+}
+#items{
+    display: flex;
+    margin-bottom: 70px;
+}
+#aling{
+    text-align: center;
+}
+#items #one{
+    margin-left: 8%;
+}
+#three{
+    margin-right: 3%;
+}
+#data{
+    width: 85%;
+    display: flex;
+    margin: 7%;
+    box-shadow: 10px 10px 30px gray;
+}
+#data div{
+    padding: 3% 10% 3% 10%;
+}
+#data h1{
+    font-size: 40px;
+}
+footer{
+    background-color: rgb(12, 12, 27);
+    height: 200px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+}
+footer #gold{
+    color: rgb(216, 190, 20);
+}
+footer #cilver{
+    color: darkgray;
+}
